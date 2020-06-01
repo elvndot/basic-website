@@ -1,0 +1,120 @@
+﻿/*basic part*/
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(white.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+.hero {
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+    .main-nav li {
+        display: inline-block;
+        letter-spacing:4px;
+    }
+
+        .main-nav li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 20px;
+            font-family: "Roboto", sans-serif;
+            font-size: 15px;
+        }
+
+        .main-nav li a:hover {
+            border: 1px solid white;
+        }
+        span{
+            color:aqua;
+        }
+        h1{
+            text-align: center;
+            margin-left: 0px;
+            margin-right: 0px;
+            position: absolute;
+            width: 100px;
+            text-transform: uppercase;
+            font-size: 50px;
+        }
+/*Content page */
+        img {
+            border-radius: 4px;
+            padding: 5px;
+            width: 50px;
+          }
+          img:hover{
+            box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+          }
+
+/*Login */
+  form{
+    margin: 20px auto;
+    width:320px;
+    color:aqua;
+}
+input{
+    padding:10px;
+    font-size:inherit;
+}
+input[type="text"]{
+    display: block;
+    margin-bottom: 25px;
+    width:100%;
+    border:2px solid aqua;
+    background: #FAF6D9;
+}
+input[type="email"]{
+    display: block;
+    margin-bottom: 25px;
+    width:100%;
+    border:2px solid aqua;
+    background: #FAF6D9;
+}
+input[type="password"]{
+    display: block;
+    margin-bottom: 25px;
+    width:100%;
+    border:2px solid aqua;
+    background: #FAF6D9;
+}
+input [type="radio"]{
+    margin: 0 8px 25px 18px;
+}
+input[type="radio"]:first-child{
+    margin-left: 0;
+}
+input[type="submit"]{
+    width: 344px;
+    height: 45px;
+    border: none;
+    background: aqua;
+    color: white;
+}
+input[type="submit"]:focus{
+    width: 344px;
+    height: 45px;
+    border: solid aqua;
+    background: white;
+    color: aqua;
+}
+input:focus{
+    background: white;
+}
+input[type="radio"]:checked + label{
+    font-weight: bold;
+    font-size: 18px;
+}

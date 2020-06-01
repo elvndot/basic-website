@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title> Portfolio</title>
+    <link rel="stylesheet" href="Style.css" type="text/css">
+
+    <!--Image internal styling-->
+    <style>
+        .container {
+          position: relative;
+          width: 50%;
+        }
+        
+        .image {
+          display: block;
+          width: 50%;
+          height: auto;
+        }
+        .image {
+          display: block;
+          width: 50%;
+          height: auto;
+          position: right;
+        }
+        
+        .overlay {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-color: rgba(8, 105, 216, 0.308);
+          overflow: hidden;
+          width: 50%;
+          height: 0;
+          transition: .5s ease;
+        }
+        
+        .container:hover .overlay {
+          height: 100%;
+        }
+        
+        .text {
+          white-space: nowrap; 
+          color: white;
+          font-size: 20px;
+          position: absolute;
+          overflow: hidden;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <div class="row">
+            <ul class="main-nav">
+                <li><a href="Index.html"><span>HOME</span></a></li>
+                <li><a href="Portfolio.html">PORTFOLIO</a></li>
+                <li><a href="Contact.html">ABOUT</a></li>
+                <li><a href="Login.html">LOGIN</a></li>
+            </ul>
+        </div>
+    </header>
+
+        <div class="container">
+            <img src="Portfolio/1Gora.jpg" alt="Gora Plant in Flower" class="image">
+
+            <div class="overlay">
+                    <div class="text">
+                        "Photograph of a <strong>Gaura</strong> Plant in Flower"
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>
